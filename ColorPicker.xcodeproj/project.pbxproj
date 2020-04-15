@@ -13,6 +13,8 @@
 		1B1071AC24466F7400D6AC35 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B1071AA24466F7400D6AC35 /* Main.storyboard */; };
 		1B1071AE24466F7600D6AC35 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B1071AD24466F7600D6AC35 /* Assets.xcassets */; };
 		1B1071B124466F7600D6AC35 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B1071AF24466F7600D6AC35 /* LaunchScreen.storyboard */; };
+		1B1071DD2447655D00D6AC35 /* ColorWheel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B1071DC2447655D00D6AC35 /* ColorWheel.swift */; };
+		1B1071DF2447993000D6AC35 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B1071DE2447993000D6AC35 /* Color.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		1B1071AD24466F7600D6AC35 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1B1071B024466F7600D6AC35 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1B1071B224466F7600D6AC35 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1B1071DC2447655D00D6AC35 /* ColorWheel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorWheel.swift; sourceTree = "<group>"; };
+		1B1071DE2447993000D6AC35 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				1B1071A624466F7400D6AC35 /* SceneDelegate.swift */,
 				1B1071A824466F7400D6AC35 /* ViewController.swift */,
 				1B1071AA24466F7400D6AC35 /* Main.storyboard */,
+				1B1071DC2447655D00D6AC35 /* ColorWheel.swift */,
+				1B1071DE2447993000D6AC35 /* Color.swift */,
 				1B1071AD24466F7600D6AC35 /* Assets.xcassets */,
 				1B1071AF24466F7600D6AC35 /* LaunchScreen.storyboard */,
 				1B1071B224466F7600D6AC35 /* Info.plist */,
@@ -141,6 +147,8 @@
 				1B1071A924466F7400D6AC35 /* ViewController.swift in Sources */,
 				1B1071A524466F7400D6AC35 /* AppDelegate.swift in Sources */,
 				1B1071A724466F7400D6AC35 /* SceneDelegate.swift in Sources */,
+				1B1071DF2447993000D6AC35 /* Color.swift in Sources */,
+				1B1071DD2447655D00D6AC35 /* ColorWheel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
