@@ -10,6 +10,9 @@ import UIKit
 
 class ColorWheel: UIControl {
     
+    var color: UIColor = .white
+    
+    
     override func layoutSubviews() {
         super.layoutSubviews()
         
@@ -32,6 +35,36 @@ class ColorWheel: UIControl {
             }
         }
     }
+    
+    override func beginTracking(_ touch: UITouch, with event: UIEvent?) -> Bool {
+        let touchPoint = touch.location(in: self)
+        color = color(for: touchPoint)
+        sendActions(for: [.touchDown, .valueChanged])
+        
+        return true
+    }
+    
+    override func continueTracking(_ touch: UITouch, with event: UIEvent?) -> Bool {
+        let touchPoint = touch.location(in: self)
+        
+        if bounds.contains(touchPoint) {
+            sendActions(for: [.touchDragInside, .valueChanged])
+        } else {
+            sendActions(for: .touchDragOutside)
+        }
+        
+        
+        return true
+    }
+    
+    override func endTracking(_ touch: UITouch?, with event: UIEvent?) {
+        
+    }
+    
+    override func cancelTracking(with event: UIEvent?) {
+        
+    }
+    
 
     private func color(for location: CGPoint) -> UIColor {
         let center = CGPoint(x: bounds.midX, y: bounds.midY)

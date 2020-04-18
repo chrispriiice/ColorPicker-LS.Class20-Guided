@@ -64,13 +64,21 @@
 				1B1071A624466F7400D6AC35 /* SceneDelegate.swift */,
 				1B1071A824466F7400D6AC35 /* ViewController.swift */,
 				1B1071AA24466F7400D6AC35 /* Main.storyboard */,
-				1B1071DC2447655D00D6AC35 /* ColorWheel.swift */,
-				1B1071DE2447993000D6AC35 /* Color.swift */,
+				1B1071E02447EF0A00D6AC35 /* Views */,
 				1B1071AD24466F7600D6AC35 /* Assets.xcassets */,
 				1B1071AF24466F7600D6AC35 /* LaunchScreen.storyboard */,
 				1B1071B224466F7600D6AC35 /* Info.plist */,
 			);
 			path = ColorPicker;
+			sourceTree = "<group>";
+		};
+		1B1071E02447EF0A00D6AC35 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				1B1071DC2447655D00D6AC35 /* ColorWheel.swift */,
+				1B1071DE2447993000D6AC35 /* Color.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
